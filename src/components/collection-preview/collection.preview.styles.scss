@@ -1,0 +1,21 @@
+.collection-preview {
+  margin: 40px 0;
+}
+
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+
+  .menu-items {
+    width: 240px;
+  }
+}
+
+.item-url {
+  cursor: pointer;
+
+  &:hover {
+    background: #000;
+    color: #ffffff;
+  }
+}
